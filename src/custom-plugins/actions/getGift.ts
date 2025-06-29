@@ -38,10 +38,10 @@ export class GetGiftAction {
      */
     async getGift(params: GetGiftParams): Promise<Transaction> {
         const chainName = "avalancheFuji";
-        const contractAddress: `0x${string}` =  "0x00" // dev TODO
-        const donHostedSecretsSlotID:number = Infinity // dev TODO
-        const donHostedSecretsVersion:number = Infinity // dev TODO
-        const clSubId:number = Infinity // dev TODO
+        const contractAddress: `0x${string}` =  "0x8c62a330fAEB4a5cfd6458464fd41a918d663025"
+        const donHostedSecretsSlotID:number = 0
+        const donHostedSecretsVersion:number = 1751200084
+        const clSubId:number = 15674
 
         if (contractAddress === "0x00" || donHostedSecretsSlotID === Infinity || donHostedSecretsVersion === Infinity || clSubId === Infinity) {
             throw new Error("Contract address, slot ID, version, or subscription ID is not set");
