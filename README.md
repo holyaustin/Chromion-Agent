@@ -74,6 +74,10 @@ npx hardhat deploy --network fuji
 # Output contract address to update frontend and Chainlink functions
 
 Avalanche Fuji Testnet contracct address : 0x8c62a330fAEB4a5cfd6458464fd41a918d663025
+
+https://testnet.snowscan.xyz/address/0x8c62a330faeb4a5cfd6458464fd41a918d663025#code
+
+https://snowtrace.io/address/0x8c62a330fAEB4a5cfd6458464fd41a918d663025
 ```
 
 
